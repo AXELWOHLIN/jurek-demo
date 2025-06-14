@@ -1,4 +1,4 @@
-import { JobListing, MeritmindJob, PooliaJob, ArbetsformedlingenJob } from './types';
+import { JobListing } from './types';
 
 // Parse CSV data into array of objects
 function parseCSV<T extends Record<string, string>>(csvContent: string): T[] {

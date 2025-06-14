@@ -66,7 +66,7 @@ export default function TodaysListings() {
           <div className="mb-8 text-center">
             <div className="inline-block">
               <h1 className="text-4xl font-bold tracking-tight mb-2 bg-gradient-to-r from-purple-600 via-purple-500 to-pink-500 bg-clip-text text-transparent">
-                Today's Job Listings
+                Today&apos;s Job Listings
               </h1>
               <div className="h-1 bg-gradient-to-r from-purple-600 to-pink-500 rounded-full"></div>
             </div>
@@ -101,7 +101,7 @@ export default function TodaysListings() {
                       <Calendar className="h-12 w-12 mx-auto text-purple-500 mb-4" />
                       <h3 className="text-lg font-semibold mb-2">No jobs added today</h3>
                       <p className="text-muted-foreground">
-                        Check back later or view yesterday's listings
+                        Check back later or view yesterday&apos;s listings
                       </p>
                     </div>
                   </CardContent>

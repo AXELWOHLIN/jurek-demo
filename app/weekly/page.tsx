@@ -35,7 +35,7 @@ export default function WeeklyListings() {
       <div className="container mx-auto px-4 py-8">
         <div className="flex items-center justify-center min-h-[400px]">
           <div className="flex flex-col items-center gap-2">
-            <Loader2 className="h-8 w-8 animate-spin" />
+            <Loader2 className="h-8 w-8 animate-spin text-purple-600" />
             <p className="text-muted-foreground">Loading job listings...</p>
           </div>
         </div>
@@ -89,7 +89,7 @@ export default function WeeklyListings() {
                     <Calendar className="h-12 w-12 mx-auto text-muted-foreground mb-4" />
                     <h3 className="text-lg font-semibold mb-2">No jobs this week</h3>
                     <p className="text-muted-foreground">
-                      Check back later or view last week's listings
+                      Check back later or view last week&apos;s listings
                     </p>
                   </div>
                 </CardContent>
