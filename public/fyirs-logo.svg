@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 24">
+  <defs>
+    <style>
+      .fyirs-text {
+        fill: #2563eb;
+        font-family: Arial, sans-serif;
+        font-weight: bold;
+        font-size: 18px;
+      }
+    </style>
+  </defs>
+  <text x="5" y="18" class="fyirs-text">FYIRS</text>
+</svg> 

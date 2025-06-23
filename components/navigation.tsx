@@ -38,18 +38,20 @@ export function Navigation() {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center space-x-8">
             <Link href="/" className="flex items-center space-x-3 hover:opacity-80 transition-opacity">
-              <Image
-                src="/jurek-logo.svg"
-                alt="Jurek Logo"
-                width={120}
-                height={32}
-                className="h-8 w-auto"
-                priority
-              />
-              <div className="hidden sm:block">
+              <div className="flex items-center space-x-2">
                 <span className="font-bold text-xl bg-gradient-to-r from-purple-600 via-purple-500 to-pink-500 bg-clip-text text-transparent">
-                  Data Lake
+                  Recruiter's Data Lake
                 </span>
+              </div>
+              <div className="hidden sm:block border-l border-gray-300 pl-3">
+                <Image
+                  src="/jurek-logo.svg"
+                  alt="Jurek Logo"
+                  width={120}
+                  height={32}
+                  className="h-8 w-auto opacity-60"
+                  priority
+                />
               </div>
             </Link>
             
