@@ -40,7 +40,7 @@ export function Navigation() {
             <Link href="/" className="flex items-center space-x-3 hover:opacity-80 transition-opacity">
               <div className="flex items-center space-x-2">
                 <span className="font-bold text-xl bg-gradient-to-r from-purple-600 via-purple-500 to-pink-500 bg-clip-text text-transparent">
-                  Recruiter's Data Lake
+                  Recruiter&apos;s Data Lake
                 </span>
               </div>
               <div className="hidden sm:block border-l border-gray-300 pl-3">
